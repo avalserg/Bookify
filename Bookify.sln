@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7C257A3-3A9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{27824CDF-B5F7-4146-881B-D3AF219EB0E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{F5D753FF-C424-4B14-9C2B-ECDF8550FAFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{F5D753FF-C424-4B14-9C2B-ECDF8550FAFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{EBF39AE3-2785-42D2-B106-47401EA4EB15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{F5D753FF-C424-4B14-9C2B-ECDF8550FAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5D753FF-C424-4B14-9C2B-ECDF8550FAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5D753FF-C424-4B14-9C2B-ECDF8550FAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF39AE3-2785-42D2-B106-47401EA4EB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF39AE3-2785-42D2-B106-47401EA4EB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF39AE3-2785-42D2-B106-47401EA4EB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF39AE3-2785-42D2-B106-47401EA4EB15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F5D753FF-C424-4B14-9C2B-ECDF8550FAFF} = {B7C257A3-3A91-4772-BBDF-C33A2B396DEE}
+		{EBF39AE3-2785-42D2-B106-47401EA4EB15} = {B7C257A3-3A91-4772-BBDF-C33A2B396DEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19CA5690-45B1-45BB-92B7-B8387C9437B9}

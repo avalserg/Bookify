@@ -1,4 +1,5 @@
 ﻿using Bookify.Domain.Abstractions;
+using Bookify.Domain.Shared;
 
 namespace Bookify.Domain.Apartments
 {
@@ -29,7 +30,8 @@ namespace Bookify.Domain.Apartments
         public Money CleaningFee { get; private set; }
 
         // null if not booking before
-        public DateTime? LastBookedOnUtc { get; private set; }
+        // set only from Domain
+        public DateTime? LastBookedOnUtc { get; internal set; }
 
         public List<Amenity> Amenities { get; private set; } = new();
     }

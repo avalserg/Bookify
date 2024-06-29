@@ -19,7 +19,7 @@
             _domainEvents.Clear();
         }
 
-        protected void RaiseDomainEvents(IDomainEvent domainEvent)
+        protected void RaiseDomainEvent(IDomainEvent domainEvent)
         {
             _domainEvents.Add(domainEvent);
         }

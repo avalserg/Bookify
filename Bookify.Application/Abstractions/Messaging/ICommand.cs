@@ -7,14 +7,12 @@ namespace Bookify.Application.Abstractions.Messaging
     {
     }
 
-
-    public interface ICommand<TResponse> : IRequest<Result<TResponse>>, IBaseCommand
+    public interface ICommand<TReponse> : IRequest<Result<TReponse>>, IBaseCommand
     {
     }
 
     public interface IBaseCommand
     {
-
     }
 
 }

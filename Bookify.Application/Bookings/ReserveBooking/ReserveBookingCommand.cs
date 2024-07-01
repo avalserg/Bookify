@@ -7,5 +7,5 @@ namespace Bookify.Application.Bookings.ReserveBooking
         Guid UserId,
         DateOnly StartDate,
         DateOnly EndDate
-        ) : ICommand<Guid>, ICommand;
+        ) : ICommand<Guid>;
 }
